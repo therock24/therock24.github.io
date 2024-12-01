@@ -3,7 +3,7 @@
 // Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
+  useCustomCursor: false, // Change this to false if you want the good'ol cursor
   googleTrackingID: "",
 };
 
@@ -20,7 +20,6 @@ const greeting = {
 };
 
 const socialMediaLinks = {
-  /* Your Social Media Link */
   github: "https://github.com/therock24",
   linkedin: "https://www.linkedin.com/in/vitorlfernandes/",
   gmail: "vitorlamela@gmail.com",
@@ -119,13 +118,6 @@ const skills = {
           },
         },
         {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
           style: {
@@ -136,7 +128,7 @@ const skills = {
       ],
     },
     {
-      title: "Backend Development",
+      title: "Web Development",
       fileName: "FullStackImg",
       skills: [
         "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications",
@@ -169,24 +161,10 @@ const skills = {
           },
         },
         {
-          skillName: "PHP",
-          fontAwesomeClassname: "simple-icons:php",
-          style: {
-            color: "#7377AD",
-          },
-        },
-        {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "logos:node",
-          style: {
-            color: "#339933",
           },
         },
         {
@@ -211,13 +189,6 @@ const skills = {
           },
         },
         {
-          skillName: "Wordpress",
-          fontAwesomeClassname: "simple-icons:wordpress",
-          style: {
-            color: "#207297",
-          },
-        },
-        {
           skillName: "Apache",
           fontAwesomeClassname: "simple-icons:apache",
           style: {
@@ -239,13 +210,6 @@ const skills = {
           },
         },
         {
-          skillName: "C++",
-          fontAwesomeClassname: "simple-icons:cplusplus",
-          style: {
-            color: "#E94E32",
-          },
-        },
-        {
           skillName: "Python",
           fontAwesomeClassname: "simple-icons:python",
           style: {
@@ -255,7 +219,7 @@ const skills = {
       ],
     },
     {
-      title: "Cloud Infra-Architecture",
+      title: "Cloud Infrastructure",
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience with Docker, Linux environment, shell scripts, automation",
@@ -269,20 +233,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:amazonaws",
           style: {
             color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#38AFBB",
-          },
-        },
-        {
-          skillName: "Heroku",
-          fontAwesomeClassname: "simple-icons:heroku",
-          style: {
-            color: "#6863A6",
           },
         },
         {
@@ -312,14 +262,7 @@ const skills = {
           style: {
             color: "#1488C6",
           },
-        },
-        {
-          skillName: "GitHub Actions",
-          fontAwesomeClassname: "simple-icons:githubactions",
-          style: {
-            color: "#5b77ef",
-          },
-        },
+        }
       ],
     },
   ],
